@@ -12,11 +12,21 @@ counterStream: ---1----2--3----4------5-->
 
 The `map(f)` function replaces \(into the new stream\) each emitted value according to a function `f`you provide. In our case, we mapped to the number 1 on each click. The `scan(g)`function aggregates all previous values on the stream, producing value `x = g(accumulated, current)`, where `g`was simply the add function in this example. Then, `counterStream`emits the total number of clicks whenever a click happens.
 
-
-
 Let's see that example on action, only using scan...
 
 [jsbin](https://jsbin.com/rogevob/edit?html,js,console,output)
 
 
+
+#### terminology
+
+Rx    // package
+
+Observable    // object
+
+fromEvent\(source, type-of-event\)    // helper method that create a **new** observable based on an event.
+
+scan\(\)    // The **scan **operator works just like **reduce **for arrays. It takes a value which is exposed to a callback. The returned value of the callback will then become the next value exposed the next time the callback runs.
+
+subscribe\( next-function, error-function, complete-function \)    // to react to that event I need to subscribe to it
 
