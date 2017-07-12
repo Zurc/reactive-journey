@@ -28,6 +28,10 @@ egghead list of videos:
 
 --
 
+[https://www.youtube.com/playlist?list=PL55RiY5tL51pHpagYcrN9ubNLVXF8rGVi](https://www.youtube.com/playlist?list=PL55RiY5tL51pHpagYcrN9ubNLVXF8rGVi)    // Academind playlist
+
+--
+
 [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)    // the intro to rxjs you've been missing - Saltz
 
 #### Books
