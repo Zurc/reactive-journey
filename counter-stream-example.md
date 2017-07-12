@@ -24,7 +24,41 @@ Observable    // object
 
 fromEvent\(source, type-of-event\)    // helper method that create a **new** observable based on an event.
 
-scan\(\)    // The **scan **operator works just like **reduce **for arrays. It takes a value which is exposed to a callback. The returned value of the callback will then become the next value exposed the next time the callback runs.
+scan\(\)    // The **scan **operator works just like **reduce **for arrays. It takes a value which is exposed to a callback. The returned value of the callback will then become the next value exposed the next time the callback runs. e.g.: if you have an array of numbers a reduce function could give you the total sum, while scan will give you each partial sum until the last that will be the same total as reduce result
+
+**reduce**
+
+```
+var observable = Rx.Observable.of(1,2,3,4,5)
+
+observable
+    .reduce((total, currentValue) => {
+        return total + currentValue;
+    }, 0)
+    .subscribe({
+        next: function(value) {
+            console.log(value);
+        }
+    });
+
+// 15
+```
+
+**scan**
+
+```
+observable
+    .scan((total, currentValue) => {
+        return total + currentValue;
+    }, 0)
+    .subscribe({
+        next: function(value) {
+            console.log(value);
+        }
+    });
+
+// 1, 3, 6, 10, 15
+```
 
 subscribe\( next-method, error-method, complete-method \)    // to react to that event I need to subscribe to it. 3 parameter functions.
 
