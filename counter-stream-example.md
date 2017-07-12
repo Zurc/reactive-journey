@@ -24,7 +24,11 @@ Observable    // object
 
 fromEvent\(source, type-of-event\)    // helper method that create a **new** observable based on an event.
 
-scan\(\)    // The **scan **operator works just like **reduce **for arrays. It takes a value which is exposed to a callback. The returned value of the callback will then become the next value exposed the next time the callback runs. e.g.: if you have an array of numbers a reduce function could give you the total sum, while scan will give you each partial sum until the last that will be the same total as reduce result
+scan\(\)    // The **scan **operator works just like **reduce **for arrays. It takes a value which is exposed to a callback. The returned value of the callback will then become the next value exposed the next time the callback runs. 
+
+
+
+e.g.: if you have an array of numbers a reduce function could give you the total sum, while scan will give you each partial sum until the last that will be the same total as reduce result
 
 **reduce**
 
