@@ -61,5 +61,7 @@ the **complete method** will be called whenever the observable is done
 
 #### Stream concept
 
-The complete method could never occur \(case a a click stream\), or ![](/assets/Screen Shot 2017-07-12 at 15.26.51.png)
+At the end we might have and endpoint when the observable is done. Sometimes this could never occur \(case a a click stream\), or  if we do complete the observable \(if we have some data source which eventually finishes then we can call end and we will execute complete if the observable provides it on the observer object.
+
+ ![](/assets/Screen Shot 2017-07-12 at 15.26.51.png)
 
