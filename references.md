@@ -2,6 +2,8 @@
 
 ---
 
+[http://reactivex.io/rxjs/manual/overview.html](http://reactivex.io/rxjs/manual/overview.html)
+
 #### Videos
 
 [https://egghead.io/technologies/rx](https://egghead.io/technologies/rx)    // Egghead Videos. Amazing resource!
