@@ -28,7 +28,5 @@ scan\(\)    // The **scan **operator works just like **reduce **for arrays. It t
 
 subscribe\( next-function, error-function, complete-function \)    // to react to that event I need to subscribe to it. 3 parameter functions.
 
-
-
-"operators like scan allows you to transform the way this data is used or looks like immensely"
+"operators like scan allows you to transform the way this data is used or looks like immensely, helps you control how the events flow through your observables."
 
