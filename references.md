@@ -4,7 +4,7 @@
 
 #### Videos
 
-[https://egghead.io/technologies/rx](https://egghead.io/technologies/rx)    Egghead Videos. Amazing resource!
+[https://egghead.io/technologies/rx](https://egghead.io/technologies/rx)    // Egghead Videos. Amazing resource!
 
 egghead list of videos:
 
@@ -28,8 +28,6 @@ egghead list of videos:
 
 [https://gist.github.com/staltz/868e7e9bc2a7b8c1f754](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)    // the intro to rxjs you've been missing - Saltz
 
-
-
 #### Books
 
 [https://www.gitbook.com/book/btroncone/learn-rxjs/details](https://www.gitbook.com/book/btroncone/learn-rxjs/details)
@@ -43,4 +41,8 @@ egghead list of videos:
 [https://xgrommx.github.io/rx-book/index.html](https://xgrommx.github.io/rx-book/index.html)
 
 [http://reactivex.io/rxjs/manual/index.html](http://reactivex.io/rxjs/manual/index.html)
+
+#### Other
+
+[http://rxmarbles.com/](http://rxmarbles.com/)    // marble diagrams
 
