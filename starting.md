@@ -18,3 +18,11 @@ A stream is a sequence of **ongoing events ordered in time**. It can emit three 
 
 We capture these emitted events only **asynchronously**, by defining a function that will execute when a value is emitted, another function when an error is emitted, and another function when 'completed' is emitted. Sometimes these last two can be omitted and you can just focus on defining the function for values. The "listening" to the stream is called **subscribing**. The functions we are defining are observers. The stream is the subject \(or "observable"\) being observed. This is precisely the [Observer Design Pattern](https://en.wikipedia.org/wiki/Observer_pattern).
 
+There is different ways to visualize streams... 
+
+Marble diagrams...
+
+![](/assets/Screen Shot 2017-07-12 at 12.08.49.png)
+
+
+
