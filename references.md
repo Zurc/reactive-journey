@@ -2,7 +2,7 @@
 
 ---
 
-[http://reactivex.io/rxjs/manual/overview.html](http://reactivex.io/rxjs/manual/overview.html)
+[http://reactivex.io/rxjs/manual/overview.html](http://reactivex.io/rxjs/manual/overview.html)    // library documentation
 
 #### Videos
 
