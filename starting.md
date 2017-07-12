@@ -61,9 +61,11 @@ the **complete method** will be called whenever the observable is done
 
 #### Stream concept
 
-At the end we might have and endpoint when the observable is done. Sometimes this could never occur \(case a a click stream\), or  if we do complete the observable \(if we have some data source which eventually finishes then we can call end and we will execute complete if the observable provides it on the observer object.
+An **observable** is just a **wrapper around a stream of values**, we can have one value or we have multiple values. Whatever the case we have our observer with the 3 methods mentioned before were we can handle any values
 
-![](/assets/Screen Shot 2017-07-12 at 15.26.51.png)If its the case of s stream or observable wrapping an HTTP request we might get a response that could be an error \(either a time out or a server-side error\)
+At the end we **might have and endpoint** when the observable is done. Sometimes this could never occur \(case a a click stream\), or  if we do complete the observable \(if we have some data source which eventually finishes then we can call end and we will execute complete if the observable provides it on the observer object.
+
+![](/assets/Screen Shot 2017-07-12 at 15.26.51.png)If its the case of s stream or observable wrapping an HTTP request we **might ge**t a response that could be **an error** \(either a time out or a server-side error\)
 
 The observable would through the error and we could handle it in the error function of the observer
 
