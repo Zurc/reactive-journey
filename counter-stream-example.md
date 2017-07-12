@@ -26,7 +26,7 @@ fromEvent\(source, type-of-event\)    // helper method that create a **new** obs
 
 scan\(\)    // The **scan **operator works just like **reduce **for arrays. It takes a value which is exposed to a callback. The returned value of the callback will then become the next value exposed the next time the callback runs.
 
-subscribe\( next-function, error-function, complete-function \)    // to react to that event I need to subscribe to it. 3 parameter functions.
+subscribe\( next-method, error-method, complete-method \)    // to react to that event I need to subscribe to it. 3 parameter functions.
 
 --
 
@@ -35,8 +35,4 @@ subscribe\( next-function, error-function, complete-function \)    // to react t
 --
 
 You can think about rxjs and observables as a funnel-like approach for handling asynchronous code
-
-
-
-
 

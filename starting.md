@@ -35,12 +35,30 @@ X is an error
 
 Some Terms:
 
-* **Observable: **represents the idea of an invokable collection of future values or events = a **stream**
+* **Observable: **represents the idea of an invokable collection of future values or events.
+
+    In other words: its a wrapper around some data source \\( **stream** of values , async -usually - or not \)
 
 * **Observer: **is a collection of callbacks that knows how to listen to values delivered by the Observable.
 
+    In other words: we want to **do something whenever a new value occurs**. The observer execute some code whenever we receive a new value, or an error, or if the observable reports that is done.
+
 * **Subscription:** represents the execution of an Observable, is primarily useful for cancelling the execution.
+
+    In other words: the subscription is **the connection** between Observable and Observer
+
+the next method will be called by the observable whenever a new value is emitted \(whenever we receive a new value\)
+
+the error method will be called whenever the observable throws an error
+
+the complete method will be called whenever the observable is done
+
+
+
+
+
 * **Operators: **are **pure functions** that enable a functional programming style of dealing with collections with operations like `map`, `filter`, `concat`, `flatMap` , etc.
+
 * **Subject: **is the equivalent to an EventEmitter, and the only way of multicasting a value or event to multiple Observers.
 * **Schedulers: **are centralized dispatchers to control concurrency, allowing us to coordinate when computation happens on e.g. `setTimeout` or `requestAnimationFrame` or others.
 
