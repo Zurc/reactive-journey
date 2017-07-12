@@ -1,3 +1,8 @@
-# My Awesome Book
+# Reactive Journey
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+The idea of this book is to share my journey through reactive or "functional" programming, how I 'll be learning, failing, fixing, learning again...
+
+
+
+
+
