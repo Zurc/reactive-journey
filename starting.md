@@ -59,5 +59,7 @@ the **complete method** will be called whenever the observable is done
 
 * **Schedulers: **are centralized dispatchers to control concurrency, allowing us to coordinate when computation happens on e.g. `setTimeout` or `requestAnimationFrame` or others.
 
+#### Stream concept
 
+The complete method could never occur \(case a a click stream\), or ![](/assets/Screen Shot 2017-07-12 at 15.26.51.png)
 
