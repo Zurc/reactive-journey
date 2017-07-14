@@ -52,5 +52,5 @@ egghead list of videos:
 
 [http://rxmarbles.com/](http://rxmarbles.com/)    // marble diagrams
 
-[http://www.introtorx.com/content/v1.0.10621.0/00\_Foreword.html](http://www.introtorx.com/content/v1.0.10621.0/00_Foreword.html)
+[http://www.introtorx.com/](http://www.introtorx.com/)
 
